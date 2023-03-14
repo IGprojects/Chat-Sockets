@@ -11,4 +11,5 @@ Chat hecho con sockets y NodeJS en el podrás hablar con todos los usuarios que 
   - Visual Studio Code IDE  
 
 ![Image text](https://github.com/IGprojects/Chat-Sockets/blob/main/Assets/Captura1.png)
+##
 ![Image text](https://github.com/IGprojects/Chat-Sockets/blob/main/Assets/Captura2.png)
