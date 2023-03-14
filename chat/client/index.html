@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat.io</title>
+  <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" type="image/x-icon" href="./icon.png">
+</head>
+
+<body>
+
+  <code class="code-container" content="IGProjects">
+        <div class="glow-container">
+          <div class="augs" data-augmented-ui></div>
+        </div>
+        <section class="augs bg" data-augmented-ui>
+          <button class="dots" title="change mode"></button>
+          <input value="chat.io">
+          <div class="code highcontrast-dark">
+            <div id="messages">
+            </div>
+            
+          </div>
+          
+        </section>
+      </div>
+  </code>
+  <div class="contenidor-formulari">
+    <form onsubmit="return addMessage(this)">
+      <input id="nickname" type="text" placeholder="Introduce el nickname">
+      <textarea id="text" placeholder="Introduce un mensje..."></textarea>
+      <input id="buttoEnviar" type="submit" value="Enviar" />
+    </form>
+  </div>
+</body>
+
+</html>
